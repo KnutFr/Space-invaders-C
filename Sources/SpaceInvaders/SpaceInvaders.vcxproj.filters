@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\GameEngine">
+      <UniqueIdentifier>{b0b0e80b-2915-4d48-a9d0-65229c911fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GraphicEngine">
+      <UniqueIdentifier>{02a65536-8b2b-4799-bb11-8b2e1dd95ef5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\SystemEngine">
+      <UniqueIdentifier>{2964fedc-70a4-4ea3-8469-361fec884a40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\SoundEngine">
+      <UniqueIdentifier>{7f418d97-565c-48b0-9d9e-697346b9111d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="my.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDynamic1.cpp">
+      <Filter>Fichiers sources\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDynamic2.cpp">
+      <Filter>Fichiers sources\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackFire.cpp">
+      <Filter>Fichiers sources\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="BossAttacks.cpp">
+      <Filter>Fichiers sources\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="BossAttacksTools1.cpp">
+      <Filter>Fichiers sources\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="BossAttacksTools2.cpp">
+      <Filter>Fichiers sources\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowMenu2.cpp">
+      <Filter>Fichiers sources\GraphicEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowGame1.cpp">
+      <Filter>Fichiers sources\GraphicEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowGame2.cpp">
+      <Filter>Fichiers sources\GraphicEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowMenu1.cpp">
+      <Filter>Fichiers sources\GraphicEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadGame1.cpp">
+      <Filter>Fichiers sources\SystemEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadGame2.cpp">
+      <Filter>Fichiers sources\SystemEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadGame3.cpp">
+      <Filter>Fichiers sources\SystemEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadGame4.cpp">
+      <Filter>Fichiers sources\SystemEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadMenu1.cpp">
+      <Filter>Fichiers sources\SystemEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadMenu2.cpp">
+      <Filter>Fichiers sources\SystemEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadMenuItems1.cpp">
+      <Filter>Fichiers sources\SystemEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadMenuItems2.cpp">
+      <Filter>Fichiers sources\SystemEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckCollisions3.cpp">
+      <Filter>Fichiers sources\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckCollisions1.cpp">
+      <Filter>Fichiers sources\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckCollisions2.cpp">
+      <Filter>Fichiers sources\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="FileScore.cpp">
+      <Filter>Fichiers sources\SystemEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="BrowserMenu.cpp">
+      <Filter>Fichiers sources\SystemEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="HandleKeyboard1.cpp">
+      <Filter>Fichiers sources\SystemEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="HandleKeyboard2.cpp">
+      <Filter>Fichiers sources\SystemEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Fichiers sources\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Load.cpp">
+      <Filter>Fichiers sources\SystemEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelCode.cpp">
+      <Filter>Fichiers sources\GraphicEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="BossTools.cpp">
+      <Filter>Fichiers sources\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="WrScore.cpp">
+      <Filter>Fichiers sources\SystemEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeOpt.cpp">
+      <Filter>Fichiers sources\SystemEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.c">
+      <Filter>Fichiers sources\SoundEngine</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
